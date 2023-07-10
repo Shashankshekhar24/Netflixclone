@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/8ec27a1d-02ce-4489-b320-a95106906f5d/IN-en-20221121-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: 1350px 620px;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+nav .img img{
+    width: 17%;
+    margin-top: -18px;
+}
+nav .btn{
+    margin-top: 18px;
+    display: flex;
+}
+.btn .eng{
+    margin-inline:22px ;
+}
+.btn .eng {
+    background-color: black;
+    color: red;
+    width: 110px;
+    height: 40px;
+}
+
+.btn .hindi{
+    margin-inline:22px ;
+}
+.btn .hindi {
+    background-color: red;
+    color: white;
+    width: 110px;
+    height: 40px;
+}
+.btn .eng:hover{
+    cursor: grab;
+}
+.btn .hindi:hover{
+    cursor: grab;
+}
+.main{
+    text-align: center;
+}
+
+.main h1{
+    font-size: 80px;
+}
+.main h3{
+    font-size: 38px;
+}
+.main p{
+    font-size: 22px;
+}
+.input{
+    margin-top: 30px;
+    justify-content: center;
+   
+}
+.input input{
+    width: 400px;
+    height: 60px;
+    border: none;
+    font-size: 22px;
+    background-color: rgb(52, 49, 49);
+    color:white;
+}
+.input button{
+    background-color: red;
+    width: 130px;
+    height: 60px;
+    color: white;
+    font-size: 22px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 200px;
+    padding: 66px;
+    border-top: 5px solid gray;
+}
+.first h1{
+    font-size: 30px;
+}
+.first p{
+    font-size: 22px;
+}
+.head {
+    text-align: center;
+}
+.head h1{
+    text-align: center;
+    font-size: 50px;
+}
+.head button{
+    width: 600px;
+    height: 60px;
+    font-size: 30px;
+    background-color:  gray;
+    border-color: gray;
+    text-align: center;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border-top: 4px solid gray;
+    margin-top: 33px;
+}
+
+.footer{
+    
+}
